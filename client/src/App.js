@@ -1,18 +1,28 @@
 import React from "react";
+import "./assets/css/style.css";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./components/pages/home.js";
-import Services from "./components/pages/services.js";
-import Header from "./components/common/header.js";
-import "./assets/css/style.css";
+
+import Header from "./components/common/header";
+import Footer from "./components/common/footer";
+import Home from "./components/pages/home";
+import Services from "./components/pages/services";
+import About from "./components/pages/about";
+import Contact from "./components/pages/contact";
 
 function App() {
   return (
     <Router>
       <div className="container">
         <Header />
-        <Route path="/" exact component={Home} />
-        <Route path="/services" exact component={Services} />
+        <div id="content">
+          <Route path="/" exact component={Home} />
+          <Route path="/services" exact component={Services} />
+          <Route path="/about" exact component={About} />
+          <Route path="/contact" exact component={Contact} />
+        </div>
+        {/* content */}
+        <Footer />
       </div>
     </Router>
   );
