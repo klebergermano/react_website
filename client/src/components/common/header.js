@@ -5,7 +5,12 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <NavHeader></NavHeader>
+        <div id="header_center">
+          <figure>
+            <img id="logo" src={require("../../assets/img/logo-white.png")} />
+          </figure>
+          <NavHeader />
+        </div>
       </header>
     );
   }

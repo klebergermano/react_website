@@ -4,7 +4,7 @@ class NavHeader extends Component {
   state = {};
   render() {
     return (
-      <nav>
+      <nav id="nav_header">
         <ul>
           <li>
             <Link to="./">Home</Link>
