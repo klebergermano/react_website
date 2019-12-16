@@ -695,55 +695,109 @@ textarea {
 }
 /*----------------------------------------*/
 header {
-  border-bottom: 5px solid #cc2222;
-  background: #222233;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 5px solid #eb1e44;
+  background: #fff;
+  top: 0px;
   width: 100%;
-  height: 120px;
+  height: auto;
 }
 header #header_center {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   max-width: 1173px;
   margin: 0 auto;
+  overflow: hidden;
+  max-height: 80px;
 }
 header #logo {
-  height: auto;
-  width: 200px;
-  margin-top: 20px;
+  overflow: hidden;
+  display: block;
+  width: 180px;
+  padding: 20px;
 }
-header #nav_header {
-  margin-top: 45px;
-  max-width: 50%;
+header #logo img {
+  max-width: 100%;
 }
 header #nav_header ul {
   display: flex;
-  justify-content: space-between;
 }
 header #nav_header li {
   list-style: none;
+  display: flex;
 }
 header #nav_header li a {
-  color: #fff;
+  display: block;
+  color: 64a77;
   text-decoration: none;
-  padding: 20px;
+  margin: auto;
+  text-align: center;
+  height: 90px;
+  padding: 30px 25px;
 }
 header #nav_header li a:hover {
-  background: #222255;
+  background: #064a77;
+  color: #fff;
 }
 
 /*header*/
+#slide_home {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  top: 0px;
+  min-height: 550px;
+  background: url("https://hostgiant.ug/wp-content/uploads/2018/07/Generic_BG09_Dark-1140x445.png") no-repeat;
+  background-size: 100%;
+  background-position: 0 -150px;
+}
+
+#bg_home {
+  margin-top: 550px;
+  width: 100%;
+  background: #f0f0f0;
+  overflow: hidden;
+}
+
+.block_content_home {
+  display: flex;
+  background: #f9f9f9;
+  clear: both;
+}
+.block_content_home figure {
+  padding: 20px;
+}
+.block_content_home figure img {
+  max-width: 100%;
+  height: auto;
+}
+.block_content_home div {
+  display: flex;
+  padding: 40px;
+}
+.block_content_home div p {
+  margin: auto;
+  text-align: center;
+}
+
 footer {
   position: absolute;
   bottom: 0px;
-  background: #222233;
+  background: #fff;
   width: 100%;
   height: 120px;
   clear: both;
+  border-top: 5px solid #eb1e44;
+}
+footer #footer_center {
+  width: 1173px;
 }
 
 body {
   font-family: "Titillium Web", sans-serif;
-  background: #a0a0a0;
+  background: #333;
 }
 
 .container {
@@ -753,12 +807,18 @@ body {
 }
 
 #content {
-  margin-bottom: 20px;
-  padding: 40px;
-  max-width: 900px;
-  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.pages {
+  width: 1173px;
   background: #fff;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  height: auto;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 body {
   font-family: "Titillium Web", sans-serif;
-  background: #a0a0a0;
+  background: #333;
 }
 .container {
   position: relative;
@@ -8,10 +8,15 @@ body {
   padding-bottom: 120px;
 }
 #content {
-  margin-bottom: 20px;
-  padding: 40px;
-  max-width: 900px;
-  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.pages {
+  width: $content-width;
   background: #fff;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  height: auto;
+  overflow: hidden;
 }

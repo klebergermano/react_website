@@ -6,9 +6,9 @@ class Header extends Component {
     return (
       <header>
         <div id="header_center">
-          <figure>
-            <img id="logo" src={require("../../assets/img/logo-white.png")} />
-          </figure>
+          <a href="./" id="logo">
+            <img src={require("../../assets/img/logo.png")} />
+          </a>
           <NavHeader />
         </div>
       </header>
