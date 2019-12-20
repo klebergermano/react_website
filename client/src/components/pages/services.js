@@ -4,7 +4,7 @@ class Services extends Component {
   state = {};
   render() {
     return (
-      <div>
+      <div className="pages" id="service_page">
         <h1>Services</h1>
       </div>
     );

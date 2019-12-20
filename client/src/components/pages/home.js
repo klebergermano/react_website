@@ -6,8 +6,8 @@ class Home extends Component {
   state = {};
   render() {
     return (
-      <div className="bg_pages" id="bg_home">
-        <div className="pages" id="home">
+      <div id="bg_homepage">
+        <div id="homepage">
           <Animated
             animationIn="fadeInLeft"
             animationOut="fadeOut"
@@ -26,14 +26,17 @@ class Home extends Component {
                 </Link>
               </figure>
               <div className="col-8">
-                <p>
-                  é simplesmente uma simulação de texto da indústria tipográfica
-                  e de impressos, e vem sendo utilizado desde o século XVI,
-                  quando um impressor desconhecido pegou uma bandeja de tipos e
-                  os embaralhou para fazer um livro de modelos de tipos. Lorem
-                  Ipsum sobreviveu não só a cinco séculos, como também ao salto
-                  para a editoração eletrônica, permanecendo essencialmente ina
-                </p>
+                <Animated animationIn="fadeInRight">
+                  <p>
+                    é simplesmente uma simulação de texto da indústria
+                    tipográfica e de impressos, e vem sendo utilizado desde o
+                    século XVI, quando um impressor desconhecido pegou uma
+                    bandeja de tipos e os embaralhou para fazer um livro de
+                    modelos de tipos. Lorem Ipsum sobreviveu não só a cinco
+                    séculos, como também ao salto para a editoração eletrônica,
+                    permanecendo essencialmente ina
+                  </p>
+                </Animated>
               </div>
             </div>
           </Animated>

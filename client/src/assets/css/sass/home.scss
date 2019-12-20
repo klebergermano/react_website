@@ -1,10 +1,16 @@
-#bg_home {
+#bg_homepage {
   margin-top: 550px;
   width: 100%;
-  background: #f0f0f0;
+  background: #fff;
   overflow: hidden;
 }
-
+#homepage {
+  width: $content-width;
+  background: #fff;
+  margin: 0 auto;
+  padding: 20px 40px;
+  height: auto;
+}
 .block_content_home {
   display: flex;
   background: #f9f9f9;

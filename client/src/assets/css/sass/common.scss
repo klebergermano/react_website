@@ -12,11 +12,12 @@ body {
   height: auto;
   overflow: hidden;
 }
+
 .pages {
   width: $content-width;
   background: #fff;
   margin: 0 auto;
   padding: 20px 40px;
-  height: auto;
-  overflow: hidden;
+  min-height: 500px;
+  margin-top: 90px;
 }

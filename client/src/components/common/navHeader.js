@@ -7,16 +7,16 @@ class NavHeader extends Component {
       <nav id="nav_header">
         <ul>
           <li>
-            <Link to="./">Home</Link>
+            <Link to="./">Início</Link>
           </li>
           <li>
-            <Link to="./services">Services</Link>
+            <Link to="./services">Serviços</Link>
           </li>
           <li>
-            <Link to="./about">About</Link>
+            <Link to="./about">Sobre</Link>
           </li>
           <li>
-            <Link to="./contact">Contact</Link>
+            <Link to="./contact">Contato</Link>
           </li>
         </ul>
       </nav>

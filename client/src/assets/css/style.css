@@ -754,11 +754,19 @@ header #nav_header li a:hover {
   background-position: 0 -150px;
 }
 
-#bg_home {
+#bg_homepage {
   margin-top: 550px;
   width: 100%;
-  background: #f0f0f0;
+  background: #fff;
   overflow: hidden;
+}
+
+#homepage {
+  width: 1173px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 20px 40px;
+  height: auto;
 }
 
 .block_content_home {
@@ -817,8 +825,8 @@ body {
   background: #fff;
   margin: 0 auto;
   padding: 20px 40px;
-  height: auto;
-  overflow: hidden;
+  min-height: 500px;
+  margin-top: 90px;
 }
 
 /*# sourceMappingURL=style.css.map */
